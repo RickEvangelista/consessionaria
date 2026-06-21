@@ -16,7 +16,7 @@
     <header id="cabecalho" class="cabecalho-principal">
       <section class="container cabecalho-conteudo">
         <article class="marca">
-          <img src="img/logotipo.png" alt="Logotipo Motors Royal" />
+          <img src="img/logotipo.png" alt="Logotipo Motors Royal" class="logotipo"/>
 
           <hgroup>
             <h1 class="marca-titulo">Motors Royal</h1>
@@ -27,85 +27,96 @@
         <nav id="menu-principal" class="menu-principal">
           <ul class="menu-lista">
             <li class="menu-item">
-              <a href="#topo" class="menu-link">Início</a>
-            </li>
-            <li class="menu-item">
               <a href="#veiculos" class="menu-link">Veículos</a>
             </li>
             <li class="menu-item">
               <a href="#nossa-historia" class="menu-link">Sobre Nos</a>
             </li>
             <li class="menu-item">
-              <a href="#fale-conosco" class="menu-link">Fale conosco</a>
+              <a href="#contato" class="menu-link">Fale conosco</a>
             </li>
           </ul>
         </nav>
       </section>
     </header>
+
     <main id="conteudo-principal" class="conteudo-principal">
       <section id="banner" class="secao-banner">
-        <section class="container banner-conteudo">
-          <figure class="banner-imagem">
-            <img
-              src="img/banner.png"
-              alt="Banner de apresentação do site com um carro"
-            />
-          </figure>
+          <header class="secao-topo">
+            <h2 class="secao-titulo">Encontre seu carro dos seus sonhos</h2>
+          </header>
+            <figure class="banner-imagem">
+              <img
+                src="img/banner.png"
+                alt="Banner de apresentação do site com um carro"
+              />
+            </figure>
+        </section>
+
+      </section>
+      <section class="container">
+
+      <section id="diferenciais" class="secao-informacoes">
+        <section class="container">
+          <header class="secao-topo">
+            <h2 class="secao-titulo">O melhor serviço para você</h2>
+          </header>
+
+          <section class="grade-informacoes">
+            <article class="bloco-informacao card-destaque card-interativo">
+              <img
+                src="img/selo.png"
+                class="bloco-icone"
+                alt="Selo de qualidade dos produtos"
+              />
+              <h3 class="bloco-titulo">Novos Certificados</h3>
+              <p class="bloco-texto">
+                Todos os veículos passam por rigorosa inspeção de qualidade com
+                mais de 200 itens verificados.
+              </p>
+            </article>
+
+            <article class="bloco-informacao card-destaque card-interativo">
+              <img
+                src="img/cartao.png"
+                class="bloco-icone"
+                alt="Cartão de financiamento"
+              />
+              <h3 class="bloco-titulo">Financiamento Facilitado</h3>
+              <p class="bloco-texto">
+                Parcelas que cabem no seu bolso com as melhores taxas do mercado
+                e aprovação em até 24 horas.
+              </p>
+            </article>
+
+            <article class="bloco-informacao card-destaque card-interativo">
+              <img
+                src="img/garantia.png"
+                class="bloco-icone"
+                alt="Selo de garantia"
+                aria-hidden="true"
+              />
+              <h3 class="bloco-titulo">Garantia Estendida</h3>
+              <p class="bloco-texto">
+                Proteção completa para você dirigir tranquilo. Garantia de
+                fábrica e opções de extensão disponíveis.
+              </p>
+            </article>
+          </section>
         </section>
       </section>
 
-      <section class="grade-informacoes">
-        <article class="bloco-informacao card-destaque card-interativo">
-          <img
-            src="img/selo.png"
-            class="bloco-icone"
-            alt="Selo de qualidade dos produtos"
-          />
-          <h3 class="bloco-titulo">Novos Certificados</h3>
-          <p class="bloco-texto">
-            Todos os veículos passam por rigorosa inspeção de qualidade com mais
-            de 200 itens verificados.
-          </p>
-        </article>
-
-        <article class="bloco-informacao card-destaque card-interativo">
-          <img
-            src="img/cartao.png"
-            class="bloco-icone"
-            alt="Cartão de financiamento"
-          />
-          <h3 class="bloco-titulo">Financiamento Facilitado</h3>
-          <p class="bloco-texto">
-            Parcelas que cabem no seu bolso com as melhores taxas do mercado e
-            aprovação em até 24 horas.
-          </p>
-        </article>
-
-        <article class="bloco-informacao card-destaque card-interativo">
-          <img
-            src="img/garantia.png"
-            class="bloco-icone"
-            alt="Selo de garantia"
-            aria-hidden="true"
-          />
-          <h3 class="bloco-titulo">Garantia Estendida</h3>
-          <p class="bloco-texto">
-            Proteção completa para você dirigir tranquilo. Garantia de fábrica e
-            opções de extensão disponíveis.
-          </p>
-        </article>
-      </section>
-
-      <section id="veiculos" class="secao-informacoes">
+<section id="veiculos" class="secao-informacoes">
         <section class="container">
           <header class="secao-topo">
-            <p class="secao-etiqueta">Informações úteis</p>
-            <h2 class="secao-titulo">Encomendas, horários e atendimento</h2>
-            <p class="secao-descricao">
-              Organizamos pedidos especiais para diferentes momentos do seu dia.
-              Consulte disponibilidade, horários e formas de atendimento.
-            </p>
+            <h2 class="secao-titulo">Veículos disponíveis</h2>
           </header>
+
+          <aside class="mensagem-destaque" aria-live="polite">
+            <p id="mensagem-detalhes">
+              Clique em "Ver Detalhes" para obter mais informações sobre o veículo.
+            </p>
+          </aside>
 
           <section class="grade-informacoes">
             <article class="card">
@@ -121,7 +132,7 @@
                 <p class="card-text marca-ano">Ano: 2024/2024</p>
                 <p class="card-text marca-preco">Preço: R$ 119.900</p>
 
-                <button type="button" class="btn btn-primary">
+                <button type="button" class="btn btn-primary btn-detalhes" data-veiculo="civic">
                   Ver Detalhes
                 </button>
               </section>
@@ -140,7 +151,7 @@
                 <p class="card-text marca-ano">Ano: 2023/2024</p>
                 <p class="card-text marca-preco">Preço: R$ 89.900</p>
 
-                <button type="button" class="btn btn-primary">
+                <button type="button" class="btn btn-primary btn-detalhes" data-veiculo="corolla">
                   Ver Detalhes
                 </button>
               </section>
@@ -159,12 +170,97 @@
                 <p class="card-text marca-ano">Ano: 2023/2023</p>
                 <p class="card-text marca-preco">Preço: R$ 94.900</p>
 
-                <button type="button" class="btn btn-primary">
+                <button type="button" class="btn btn-primary btn-detalhes" data-veiculo="tcross">
                   Ver Detalhes
                 </button>
               </section>
             </article>
           </section>
+        </section>
+      </section>
+      </section>
+
+
+      <section id="nossa-historia" class="secao-historia">
+        <section class="container historia-conteudo">
+          
+          <article class="historia-texto">
+            <header class="secao-topo">
+              <p class="secao-etiqueta">Quem somos</p>
+              <h2 class="secao-titulo">Uma concessionaria para todos</h2>
+            </header>
+            <p class="historia-paragrafo">
+              A AutoPrime nasceu in 2009 da visão de oferecer uma experiência de
+              compra de automóveis completamente diferente do que existia no
+              mercado. Fundada por Carlos Mendes, a empresa começou com apenas
+              20 veículos em estoque e um time de 5 pessoas dedicadas.
+            </p>
+            <p class="historia-paragrafo">
+              Hoje, contamos com mais de 200 veículos em estoque permanente, uma
+              equipa especializada de 45 profissionais e o orgulho de ter
+              ajudado mais de 12.000 famílias e empresas a encontrar o veículo
+              ideal para as suas necessidades.
+            </p>
+            <p class="historia-paragrafo">
+              A nossa filosofia é simples: colocar o cliente no centro de tudo.
+              Cada venda é tratada como uma oportunidade de criar um cliente
+              para toda a vida, não apenas uma transação comercial.
+            </p>
+          </article>
+          <figure class="historia-imagem">
+            <img
+              src="img/sobre.png"
+              alt="Representação de nossa maior satisfação, ter funcionários engajados com o nosso propósito"
+            />
+          </figure>
+        </section>
+      </section>
+      
+      <section id="missao-visao-valores" class="secao-informacoes">
+        <section class="container">
+          <header class="secao-topo">
+            <h2 class="secao-titulo">Missão, visão e valores</h2>
+          </header>
+
+          <section class="grade-informacoes">
+            <article class="bloco-informacao card-destaque card-interativo">
+              <div class="bloco-icone">🎯</div>
+              <h3 class="bloco-titulo">Nossa Missão</h3>
+              <p class="bloco-texto">
+                Conectar pessoas ao veículo ideal com transparência, respeito e
+                condições acessíveis, simplificando cada etapa da jornada de
+                compra.
+              </p>
+            </article>
+
+            <article class="bloco-informacao card-destaque card-interativo">
+              <div class="bloco-icone">👁️</div>
+              <h3 class="bloco-titulo">Nossa Visão</h3>
+              <p class="bloco-texto">
+                Ser a concessionária mais confiável do Brasil, reconhecida pelo
+                atendimento humano, pela qualidade do estoque e pela inovação
+                nos processos.
+              </p>
+            </article>
+
+            <article class="bloco-informacao card-destaque card-interativo">
+              <div class="bloco-icone">💎</div>
+              <h3 class="bloco-titulo">Nossos Valores</h3>
+              <p class="bloco-texto">
+                Transparência, excelência, respeito ao cliente e
+                responsabilidade pós-venda são os pilares que guiam todas as
+                nossas decisões.
+              </p>
+            </article>
+          </section>
+        </section>
+      </section>
+
+      <section id="contato" class="secao-informacoes">
+        <section class="container">
+          <header class="secao-topo">
+            <h2 class="secao-titulo">Fale conosco</h2>
+          </header>
 
           <section class="grade-informacoes">
             <article class="bloco-informacao card-destaque card-interativo">
@@ -212,178 +308,35 @@
               <p class="bloco-texto">Seg-Sex: 8h às 18h</p>
               <p class="bloco-texto">Sábado: 8h às 14h</p>
             </article>
-
-            <article class="bloco-informacao card-destaque card-interativo">
-              <img
-                src="img/email.png"
-                class="bloco-icone"
-                alt=""
-                aria-hidden="true"
-              />
-              <h3 class="bloco-titulo">E-mail</h3>
-              <p class="bloco-texto">gabriel.araujo@ucb.com.br</p>
-            </article>
           </section>
-
-          <footer class="acoes-informacoes">
-            <button class="botao botao-primario botao-encomenda" type="button">
-              Solicitar encomenda
-            </button>
-
-            <section class="orientacoes-encomenda oculto">
-              <h3 class="orientacoes-titulo">Como fazer sua encomenda</h3>
-              <p class="orientacoes-texto">
-                ▪️Entre em contato informando o produto desejado, a quantidade,
-                a data de retirada e qualquer observação importante sobre o
-                pedido.
-              </p>
-              <p class="orientacoes-texto">
-                ▪️Para bolos, caixas de café da manhã e pães artesanais,
-                recomendamos solicitar a encomenda com pelo menos 24 horas de
-                antecedência.
-              </p>
-            </section>
-          </footer>
-        </section>
-      </section>
-      <section id="destaques" class="secao-destaques">
-        <section class="container">
-          <header class="secao-topo">
-            <p class="secao-etiqueta">Sabores da casa</p>
-            <h2 class="secao-titulo">Destaques da semana</h2>
-            <p class="secao-descricao">
-              Conheça alguns dos itens mais procurados pelos clientes da casa.
-              Todos os produtos são preparados com atenção à qualidade, ao sabor
-              e à experiência de quem busca uma pausa gostosa no dia.
-            </p>
-          </header>
-
-          <aside class="mensagem-destaque" aria-live="polite">
-            <p id="mensagem-destaque">
-              Clique em um dos destaques para ver uma sugestão de consumo.
-            </p>
-          </aside>
-
-          <section class="grade-destaques">
-            <article class="card-destaque card-interativo" data-produto="pao">
-              <figure class="card-imagem">
-                <img
-                  src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=700&q=80"
-                  alt="Pão rústico de fermentação natural"
-                />
-              </figure>
-              <section class="card-conteudo">
-                <h3 class="card-titulo">Pão rústico de fermentação natural</h3>
-                <p class="card-texto">
-                  Casca crocante, miolo macio e fermentação lenta para realçar
-                  aroma, textura e sabor.
-                </p>
-              </section>
-            </article>
-
-            <article
-              class="card-destaque card-interativo"
-              data-produto="croissant"
-            >
-              <figure class="card-imagem">
-                <img
-                  src="https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=700&q=80"
-                  alt="Croissant amanteigado dourado"
-                />
-              </figure>
-              <section class="card-conteudo">
-                <h3 class="card-titulo">Croissant amanteigado</h3>
-                <p class="card-texto">
-                  Folhado leve, dourado e delicado, ideal para acompanhar café
-                  coado ou cappuccino.
-                </p>
-              </section>
-            </article>
-
-            <article class="card-destaque card-interativo" data-produto="bolo">
-              <figure class="card-imagem">
-                <img
-                  src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&q=80"
-                  alt="Fatia de bolo caseiro de laranja"
-                />
-              </figure>
-              <section class="card-conteudo">
-                <h3 class="card-titulo">Bolo caseiro de laranja</h3>
-                <p class="card-texto">
-                  Receita tradicional com cobertura suave, perfeita para o
-                  lanche da tarde e para partilhar.
-                </p>
-              </section>
-            </article>
-
-            <article class="card-destaque card-interativo" data-produto="cafe">
-              <figure class="card-imagem">
-                <img
-                  src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=700&q=80"
-                  alt="Xícara de café coado especial"
-                />
-              </figure>
-              <section class="card-conteudo">
-                <h3 class="card-titulo">Café coado especial</h3>
-                <p class="card-texto">
-                  Grãos selecionados e preparo cuidadoso para uma bebida
-                  equilibrada, aromática e acolhedora.
-                </p>
-              </section>
-            </article>
-          </section>
-        </section>
-      </section>
-
-      <section id="nossa-historia" class="secao-historia">
-        <section class="container historia-conteudo">
-          <figure class="historia-imagem">
-            <img
-              src="img/sobre.png"
-              alt="Representação de nossa maior satisfação, ter funcionários engajados com o nosso propósito"
-            />
-          </figure>
-
-          <article class="historia-texto">
-            <header class="secao-topo">
-              <p class="secao-etiqueta">Quem somos</p>
-              <h2 class="secao-titulo">Uma concessionaria para todos</h2>
-            </header>
-            <p class="historia-paragrafo">
-              A AutoPrime nasceu em 2009 da visão de oferecer uma experiência de
-              compra de automóveis completamente diferente do que existia no
-              mercado. Fundada por Carlos Mendes, a empresa começou com apenas
-              20 veículos em estoque e um time de 5 pessoas dedicadas.
-            </p>
-            <p class="historia-paragrafo">
-              Hoje, contamos com mais de 200 veículos em estoque permanente, uma
-              equipa especializada de 45 profissionais e o orgulho de ter
-              ajudado mais de 12.000 famílias e empresas a encontrar o veículo
-              ideal para as suas necessidades.
-            </p>
-            <p class="historia-paragrafo">
-              A nossa filosofia é simples: colocar o cliente no centro de tudo.
-              Cada venda é tratada como uma oportunidade de criar um cliente
-              para toda a vida, não apenas uma transação comercial.
-            </p>
-          </article>
-        </section>
       </section>
     </main>
+<footer id="rodape" class="rodape-principal">
+  <section class="container rodape-conteudo">
+    
+    <article class="rodape-coluna">
+      <h3>Contato</h3>
+      <p>(61) 4002-8922</p>
+      <p>MotorsRoyal@gmail.com</p>
+      <p>Universidade Católica de Brasília</p>
+    </article>
 
-    <footer id="rodape" class="rodape-principal">
-      <section class="container rodape-conteudo">
-        <p class="rodape-texto">
-          <strong>Forno &amp; Afeto</strong> | Padaria artesanal em Brasília
-        </p>
-        <p class="rodape-texto">
-          Pães, doces, cafés e encomendas com sabor de cuidado.
-        </p>
-      </section>
-    </footer>
+    <article class="rodape-coluna">
+      <h3>Links Rápidos</h3>
+      <ul>
+        <li><a href="#top">Início</a></li>
+        <li><a href="#veiculos">Veículos</a></li>
+        <li><a href="#nossa-historia">Sobre Nós</a></li>
+        <li><a href="#contato">Fale conosco</a></li>
+      </ul>
+    </article>
 
+  </section>
+
+  <p class="rodape-direitos">
+    <p>&copy; 2026 Motors royal. Todos os direitos reservados.</p>
+  </p>
+</footer>
     <script src="js/script.js"></script>
   </body>
 </html>
-
-```
