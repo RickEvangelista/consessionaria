@@ -10,8 +10,7 @@ html {
 
 body {
   font-family: Georgia, "Times New Roman", serif;
-  background-color: #f8f4ee;
-  color: #3d2b1f;
+  background-color: #FFFFFF;
   line-height: 1.6;
 }
 
@@ -36,8 +35,8 @@ ul {
 }
 
 .cabecalho-principal {
-  background-color: #fffaf3;
-  border-bottom: 1px solid #e7d8c8;
+  background-color: #0F172A;
+  border-bottom: 1px solid #ffffff;
   padding: 24px 0;
 }
 
@@ -51,13 +50,13 @@ ul {
 
 .marca-titulo {
   font-size: clamp(1.8rem, 4vw, 2.1rem);
-  color: #5a341c;
+  color: #ffffff;
   margin-bottom: 4px;
 }
 
 .marca-subtitulo {
   font-size: 0.95rem;
-  color: #8b6a52;
+  color: #666666;
 }
 
 .menu-lista {
@@ -69,7 +68,7 @@ ul {
 .menu-link {
   font-size: 1rem;
   font-weight: bold;
-  color: #5a341c;
+  color: #ffffff;
 }
 
 .menu-link:hover,
@@ -79,7 +78,7 @@ ul {
 
 .secao-banner {
   padding: clamp(48px, 8vw, 70px) 0;
-  background-color: #f5ede2;
+  background-color: #ffffff;
 }
 
 .banner-conteudo {
@@ -98,20 +97,20 @@ ul {
   font-weight: bold;
   letter-spacing: 0.5px;
   text-transform: uppercase;
-  color: #a0602b;
+  color: #0A0A0A;
   margin-bottom: 18px;
 }
 
 .banner-titulo {
   font-size: clamp(2.2rem, 5vw, 3.4rem);
   line-height: 1.15;
-  color: #4a2c1a;
+  color: #0A0A0A;
   margin-bottom: 24px;
 }
 
 .banner-descricao {
   font-size: clamp(1rem, 2vw, 1.1rem);
-  color: #6b4e3b;
+  color: #0A0A0A;
   margin-bottom: 30px;
 }
 
@@ -136,6 +135,12 @@ ul {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
 }
 
+
+.bloco-icone {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
 .botao {
   display: inline-block;
   padding: 14px 24px;
@@ -146,13 +151,13 @@ ul {
 }
 
 .botao-primario {
-  background-color: #8c4f24;
+  background-color: #0F172A;
   color: #ffffff;
 }
 
 .botao-secundario {
-  background-color: #ead8c1;
-  color: #5a341c;
+  background-color: #0F172A;
+  color: #ffffff;
 }
 
 .botao:hover,
@@ -171,24 +176,24 @@ ul {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.6px;
-  color: #a0602b;
+  color: #0A0A0A;
   margin-bottom: 10px;
 }
 
 .secao-titulo {
   font-size: clamp(1.9rem, 4vw, 2.4rem);
-  color: #4a2c1a;
+  color: #0A0A0A;
   margin-bottom: 14px;
 }
 
 .secao-descricao {
   font-size: clamp(1rem, 2vw, 1.05rem);
-  color: #6b4e3b;
+  color: #0A0A0A;
 }
 
 .secao-destaques {
   padding: clamp(56px, 8vw, 80px) 0;
-  background-color: #fffaf5;
+  background-color: #ffffff;
 }
 
 .grade-destaques {
@@ -215,18 +220,18 @@ ul {
 
 .card-titulo {
   font-size: 1.3rem;
-  color: #4a2c1a;
+  color: #0A0A0A;
   margin-bottom: 12px;
 }
 
 .card-texto {
   font-size: 1rem;
-  color: #6b4e3b;
+  color: #0a0a0a;
 }
 
 .secao-historia {
   padding: clamp(60px, 8vw, 90px) 0;
-  background-color: #f8f1e8;
+  background-color: #ffffff;
 }
 
 .historia-conteudo {
@@ -257,13 +262,13 @@ ul {
 
 .historia-paragrafo {
   font-size: clamp(1rem, 2vw, 1.08rem);
-  color: #6b4e3b;
+  color: #0a0a0a;
   margin-bottom: 18px;
 }
 
 .secao-informacoes {
   padding: clamp(56px, 8vw, 80px) 0;
-  background-color: #fffaf5;
+  background-color: #ffffff;
 }
 
 .grade-informacoes {
@@ -276,18 +281,18 @@ ul {
   background-color: #ffffff;
   padding: 28px;
   border-radius: 14px;
-  border: 1px solid #eadcca;
+  border: 1px solid #ffffff;
 }
 
 .bloco-titulo {
   font-size: 1.2rem;
-  color: #4a2c1a;
+  color: #0a0a0a;
   margin-bottom: 14px;
 }
 
 .bloco-texto {
   font-size: 1rem;
-  color: #6b4e3b;
+  color: #0A0A0A;
   margin-bottom: 10px;
 }
 
@@ -297,8 +302,8 @@ ul {
 }
 
 .rodape-principal {
-  background-color: #4a2c1a;
-  color: #f8f4ee;
+  background-color: #0F172A;
+  color: #ffffff;
   padding: 28px 0;
 }
 
@@ -321,7 +326,7 @@ ul {
   width: min(100%, 720px);
   margin: 28px auto 0;
   padding: 26px;
-  border: 1px solid #eadcca;
+  border: 1px solid #ffffff;
   border-radius: 14px;
   background-color: #ffffff;
   text-align: left;
@@ -331,13 +336,13 @@ ul {
 .orientacoes-titulo {
   margin-bottom: 12px;
   font-size: 1.25rem;
-  color: #4a2c1a;
+  color: #0a0a0a;
 }
 
 .orientacoes-texto {
   margin-bottom: 10px;
   font-size: 1rem;
-  color: #6b4e3b;
+  color: #0a0a0a;
 }
 
 .oculto {
@@ -347,14 +352,14 @@ ul {
 .mensagem-destaque {
   margin: 24px 0;
   padding: 18px 22px;
-  background-color: #fff7ed;
-  border: 1px solid #ead7c2;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
   border-radius: 16px;
 }
 
 .mensagem-destaque p {
   margin: 0;
-  color: #5a341c;
+  color: #0a0a0a;
   font-size: 1rem;
   line-height: 1.6;
   text-align: center;
@@ -371,6 +376,6 @@ ul {
 }
 
 .card-interativo:focus-visible {
-  outline: 3px solid #8b5e34;
+  outline: 3px solid #0a0a0a;
   outline-offset: 4px;
 }
