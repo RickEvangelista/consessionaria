@@ -55,8 +55,8 @@ Durante o desenvolvimento do projeto, realizamos testes para verificar a respons
 
 ## Links
 
-* Link do repositório:https://github.com/RickEvangelista/consessionaria.git
-* Link do site publicado:https://rickevangelista.github.io/consessionaria/#contato
+* Link do repositório:https://github.com/RickEvangelista/concessionaria.git
+* Link do site publicado:https://rickevangelista.github.io/concessionaria/#contato
 ## Contribuição dos integrantes
 
 **Integrante 1: Pedro Lucas dos Santos Viana**
